@@ -9,5 +9,8 @@
 char *enter(char *string);
 char *space(char *str);
 void hashtag_handler(char *buff);
+unsigned int check_delim(char c, const char *str);
+char *_strtok(char *str, const char *delim);
+
 
 #endif /*HEADER_H*/
