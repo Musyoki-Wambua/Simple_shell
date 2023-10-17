@@ -6,5 +6,8 @@
 #define BUFSIZE 10240
 #define DELIMITER " \t\r\n\a"
 
+char *enter(char *string);
+char *space(char *str);
+void hashtag_handler(char *buff);
 
 #endif /*HEADER_H*/
